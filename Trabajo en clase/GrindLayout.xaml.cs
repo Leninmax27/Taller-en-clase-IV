@@ -11,7 +11,7 @@ namespace Trabajo_en_clase
 
            }
 
-        private void OnFinalButtonClick(object sender, EventArgs e)
+        private void ButtonS(object sender, EventArgs e)
         {
             Navigation.PushAsync(new Stack());
         }

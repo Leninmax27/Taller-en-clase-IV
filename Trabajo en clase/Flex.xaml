@@ -38,5 +38,11 @@
                FontSize="18"
                BackgroundColor="HotPink"
                HorizontalTextAlignment="Center" />
+        <Button
+     x:Name="CounterBtn"
+     Text="Click me" 
+     SemanticProperties.Hint="Counts the number of times you click"
+     Clicked="ButtonS"/>
+
     </FlexLayout>
 </ContentPage>
