@@ -46,7 +46,7 @@
                 Text="Absolute Layout"/>
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Siquiente" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="ButtonS"/>
 

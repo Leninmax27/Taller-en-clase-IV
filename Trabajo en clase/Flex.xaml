@@ -40,7 +40,7 @@
                HorizontalTextAlignment="Center" />
         <Button
      x:Name="CounterBtn"
-     Text="Click me" 
+     Text="Siguiente" 
      SemanticProperties.Hint="Counts the number of times you click"
      Clicked="ButtonS"/>
 
