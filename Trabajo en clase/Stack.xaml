@@ -1,0 +1,48 @@
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Trabajo_en_clase.Stack"
+             Title="Combined StackLayouts demo">
+    <StackLayout Margin="20">
+        
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Red"
+                         WidthRequest="40" />
+                <Label Text="Red"
+                       FontSize="18"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Yellow"
+                         WidthRequest="40" />
+                <Label Text="Yellow"
+                       FontSize="18"
+                       VerticalOptions="Center" />
+            </StackLayout>
+        </Frame>
+        <Frame BorderColor="Black"
+               Padding="5">
+            <StackLayout Orientation="Horizontal"
+                         Spacing="15">
+                <BoxView Color="Blue"
+                         WidthRequest="40" />
+                <Label 
+                       FontSize="18"
+                       VerticalOptions="Center" />
+                <Button
+    x:Name="CounterBtn"
+    Text="Click me" 
+    SemanticProperties.Hint="Counts the number of times you click"
+    Clicked="OnFinalButtonClick"/>
+
+            </StackLayout>
+        </Frame>
+        
+    </StackLayout>
+</ContentPage>
